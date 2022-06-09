@@ -3,7 +3,8 @@ console.log("HI");
 function getCountryByName(countryName) {
     fetch("https://restcountries.com/v2/name/" + countryName)
     .then(response => response.json())
-    .then(data => document.querySelector('p').innerText = data[0].name)
+    .then(data => document.querySelector('p').innerText = "The country is " + data[0].name 
+    + " and the population is " + data[0].population + "!")
     
     // variable representing a section in the html with id 'my-section'
     let mySection = document.querySelector('#my-section');
@@ -12,7 +13,7 @@ function getCountryByName(countryName) {
     // Append p tag to section in html with id 'my-section'
     mySection.append(pTag);
 
-    console.log(mySection);
+    // console.log(mySection);
 }
 
 getCountryByName("Nepal");
