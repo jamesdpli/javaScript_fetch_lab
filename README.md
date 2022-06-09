@@ -11,24 +11,24 @@ Using an external API, let's begin constructing a front-end app which populates 
 This afternoon lab may seem quite intimidating so we're going to first lay out a start point for you. Instead of providing one, we're going to talk through the steps to get you familiar with the code patterns:
 
 - **Step 1: HTML**
-	- Open up VSCode and create a new HTML file
-	- Using Emmet abbreviation (`!` or `html:5`) or by typing it yourself, set up a basic HTML template
-	- Add a heading (`h1`) to the `body` followed by a `section`
-	- Give your `section` a distinct `id`
+	- Open up VSCode and create a new HTML file ✅
+	- Using Emmet abbreviation (`!` or `html:5`) or by typing it yourself, set up a basic HTML template ✅
+	- Add a heading (`h1`) to the `body` followed by a `section` ✅
+	- Give your `section` a distinct `id` ✅
 
 - **Step 2: JS**
-	- Again within VSCode, create a new JS file
-	- Move back to your HTML file and connect your JS file using the `script` tag and your filepath in the `src` attribute
-	- Remember to include `defer` to your `script` tag so it runs after the HTML loads!
-	- Back in your JS file, add in a simple `console.log("HI!")`
+	- Again within VSCode, create a new JS file ✅
+	- Move back to your HTML file and connect your JS file using the `script` tag and your filepath in the `src` attribute ✅
+	- Remember to include `defer` to your `script` tag so it runs after the HTML loads! ✅
+	- Back in your JS file, add in a simple `console.log("HI!")` ✅
 
 - **Step 3: In the browser**	
-	- Open up your HTML file in the browser by right-clicking your file and then selecting `Open With > Google Chrome`
-	- Your webpage will be blank save the heading added earlier
-	- Right click the page in the browser and select `Inspect`
-	- At the top right, select the `Console`
-	- Check that your `"HI!"` statement is printed there
-	- If the message doesn't appear, check that your files are saved and that the filepath in the `script` tag is correct
+	- Open up your HTML file in the browser by right-clicking your file and then selecting `Open With > Google Chrome` ✅
+	- Your webpage will be blank save the heading added earlier ✅
+	- Right click the page in the browser and select `Inspect` ✅
+	- At the top right, select the `Console` ✅
+	- Check that your `"HI!"` statement is printed there ✅
+	- If the message doesn't appear, check that your files are saved and that the filepath in the `script` tag is correct ✅
 
 - **Step 4: Familiarisation of the Countries API**
 	- Have a look at API endpoint which returns all held information on all countries within their set: [https://restcountries.com/v2/all]()
