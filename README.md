@@ -39,14 +39,14 @@ This afternoon lab may seem quite intimidating so we're going to first lay out a
 	- Familiatise yourself with this structure and consider how this relates to the previous endpoint's output ✅
 
 - **Step 5: Creating our `fetch()` request**
-	- In your JS file, create a function called `getCountryByName()`
-	- Give this function one argument, `countryName`
-	- Within the function place a `fetch()` request which points towards the `https://restcountries.com/v2/name/{countryName}` endpoint
-	- Don't use the format above, rather use string interpolation to include the argument in your URL
-	- Following your `fetch()` request, put in a `.then()` which takes the `response` and puts it into JSON format (`response => response.json()`)
-	- Within one more `.then()` statement, print your response data to the console (`data => console.log(data)`)
-	- Call your function at the bottom of your JS file, giving it a valid country name
-	- Play about, see how the API behaves for diffetent inputs
+	- In your JS file, create a function called `getCountryByName()` ✅
+	- Give this function one argument, `countryName` ✅
+	- Within the function place a `fetch()` request which points towards the `https://restcountries.com/v2/name/{countryName}` endpoint ✅
+	- Don't use the format above, rather use string interpolation to include the argument in your URL ✅
+	- Following your `fetch()` request, put in a `.then()` which takes the `response` and puts it into JSON format (`response => response.json()`) ✅
+	- Within one more `.then()` statement, print your response data to the console (`data => console.log(data)`) ✅
+	- Call your function at the bottom of your JS file, giving it a valid country name ✅
+	- Play about, see how the API behaves for diffetent inputs ✅
 
 	
 ## Lab Task
