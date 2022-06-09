@@ -54,7 +54,7 @@ This afternoon lab may seem quite intimidating so we're going to first lay out a
 From the set-up task above, we have our response from the Rest Countries API printing to the console for a provided country. Your tasks are to:
 
 1. **Take the output from your `getCountryByName()` function and make use of it on the webpage.** You'll need to access specific properties within the returned object, such as `name`. This will also involve you creating a variable associated with the `section` created earlier and making use of the `createElement()` and `.append()` methods ✅
-2. **Modify your code to additionally display the population** of the specified country on your webpage
+2. **Modify your code to additionally display the population** of the specified country on your webpage ✅
 3. **Create a `getAllCountries()` function** which similarly displays the name and population of **each** country to the frontend. See the tip below about abstracting your functionality. Have this method called on page load
 4. **Create an HTML form** which allows you to input the name of a country which is used to "filter" the information on the front-end on-submit. This will call your `getCountryByName()` function
 
