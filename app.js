@@ -30,3 +30,11 @@ function getAllCountries() {
             })
     })
 }
+
+document.querySelector("#searchTxt").addEventListener("keypress", function (e) {
+    if (e.key === 'Enter') {
+      console.log(document.getElementById("searchTxt").value);
+      getCountryByName(document.getElementById("searchTxt").value)
+    }
+});
+// document.getElementById("searchTxt").value
