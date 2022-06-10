@@ -1,6 +1,6 @@
 console.log("HI");
 
-function getCountryByName(countryName) {
+const getCountryByName = (countryName) => {
     fetch("https://restcountries.com/v2/name/" + countryName)
     .then(response => response.json())
     .then(data => document.querySelector('p').innerText = "The country is " + data[0].name 
@@ -15,7 +15,7 @@ function getCountryByName(countryName) {
 }
 // getCountryByName("kon")
 
-function getAllCountries() {
+const getAllCountries = () => {
     fetch("https://restcountries.com/v2/all")
     .then(response => response.json())
     .then(function(data) { 
